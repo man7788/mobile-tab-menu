@@ -1,0 +1,28 @@
+body {
+  background: rgb(50, 50, 50);
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tab-container {
+  background: whitesmoke;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  padding: 5px 20px 5px 20px;
+}
+
+.tab-div {
+  /* border: 2px solid orangered; */
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab-svg {
+  height: 25px;
+  fill:aqua;
+}
