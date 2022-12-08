@@ -13,6 +13,8 @@ body {
 }
 
 .tab-div {
+  /* border: 2px solid orange; */
+  width: 40px;
   color: black;
   font-size: 12px;
   font-weight: bold;
@@ -22,7 +24,7 @@ body {
 }
 
 .tab-div:nth-child(n+2) {
-  filter: invert(70%);
+  filter: invert(60%);
 }
 
 
@@ -32,4 +34,14 @@ body {
 
 .tab-svg {
   height: 25px;
+}
+
+.tab-bar {
+  border: 2px solid black;
+  background: black;
+  width: 40px;
+}
+
+.tab-container .tab-div:nth-child(n+2) .tab-bar{
+  display: none; 
 }
