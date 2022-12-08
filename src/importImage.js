@@ -19,7 +19,6 @@ function createIcon() {
   photoIcon.classList.add('tab-svg');
   chatIcon.classList.add('tab-svg');
 
-  newsIcon.setAttribute('fill', '#123456');
   return { newsIcon, videoIcon, photoIcon, chatIcon };
 }
 

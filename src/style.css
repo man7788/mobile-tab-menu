@@ -13,7 +13,6 @@ body {
 }
 
 .tab-div {
-  /* border: 2px solid orangered; */
   color: black;
   font-size: 12px;
   font-weight: bold;
@@ -22,7 +21,15 @@ body {
   align-items: center;
 }
 
+.tab-div:nth-child(n+2) {
+  filter: invert(70%);
+}
+
+
+.tab-div:hover{
+  cursor: pointer;
+}
+
 .tab-svg {
   height: 25px;
-  fill:aqua;
 }

@@ -1,9 +1,5 @@
 import createIcon from './importImage';
-
-function findElement() {
-  const tabIconList = document.querySelectorAll('.tab-icon');
-  return { tabIconList };
-}
+import findElement from './findElement';
 
 function appendIcon() {
   const news = createIcon().newsIcon;
